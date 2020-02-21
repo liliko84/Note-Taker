@@ -1,0 +1,48 @@
+{
+  "notes": [
+  {
+    "id": "1",
+  "title": "Recipe1",
+  "text": "apple pie",
+  "input":"Ingredients"
+  },
+  {
+    "id":"2",
+    "title": "Recipe2",
+    "text": "Brownie",
+    "input":"Ingredients"
+    },
+    { "id":"3",
+      "title": "Recipe3",
+      "text": "Chocholate cake",
+      "input":"Ingredients"
+      },
+      {
+        "id":"4",
+        "title": "Recipe4",
+        "text": "Spagetti",
+        "input":"Ingredients"
+        },
+        {
+          "id":"5",
+          "title": "Recipe5",
+          "text": "Chicken soup",
+          "input":"Ingredients"
+          },
+          {
+            "id":"6",
+            "title": "Recipe6",
+            "text": "Dumplings",
+            "input":"Ingredients"
+
+            },
+            {
+              "id":"7",
+              "title": "Recipe7",
+              "text": "Cheese bread",
+              "input":"Ingredients"
+              }
+  
+  ]
+  }
+  
