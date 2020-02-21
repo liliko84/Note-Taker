@@ -13,8 +13,6 @@ app.get("/api/notes",(req,res)=>{
 
 app.get("/api/notes/:id",(req,res)=>{
   const noteId = req.params.id;
-
-})
 const noteToReturn = notes.find(({id}) =>id === notesId);
 if (noteToReturn){
   return res.json(noteToReturn);
@@ -23,6 +21,7 @@ if (noteToReturn){
 res.json({
   message:"Recipe is not found!"
 
+});
 });
 
 /* 
