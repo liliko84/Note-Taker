@@ -5,14 +5,17 @@ const {notes} = require("./DB/notes.json");
 const PORT = process.env.PORT || 8080;
 const app = express();
 //all routes
-const routes = require ("./routes");
+const apiRoutes = require ("./routes/apiRoutes");
+const htmlRoutes = require ("./routes/htmlRoutes");
+
 
 //middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-app.use(routes);
+app.use(apiRoutes);
+app.use(htmlRoutes);
 
 //get notes by id
 const findById = (noteId, notesArr)=>{
